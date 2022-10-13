@@ -1,0 +1,43 @@
+.contenedor {
+  height: 150px;
+  padding-left: 20%;
+}
+
+.cont {
+  z-index: 12;
+  width: 100%;
+  display: flex;
+  color: white;
+  align-items: center;
+  height: 100%;
+  font-size: 20px;
+}
+.cont p {
+  display: flex;
+  align-items: center;
+  white-space: break-spaces;
+  cursor: pointer;
+}
+.cont span {
+  color: #20c997;
+}
+
+.cont i {
+  color: #20c997;
+  font-size: 30px;
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .contenedor {
+    padding-left: 10%;
+  }
+
+  .cont p {
+    font-size: 18px;
+  }
+  .cont i {
+    font-size: 25px;
+    margin-right: 0.2rem;
+  }
+}

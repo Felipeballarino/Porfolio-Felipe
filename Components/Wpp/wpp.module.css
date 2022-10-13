@@ -1,0 +1,19 @@
+.contenedor {
+  position: fixed;
+  z-index: 100;
+  bottom: 10%;
+  right: 5%;
+}
+
+.wpp {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  background-color: #20c997;
+  color: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}

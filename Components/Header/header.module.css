@@ -1,0 +1,257 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #111418;
+  color: white;
+  align-items: center;
+  position: fixed;
+  width: 17%;
+  justify-content: space-between;
+  z-index: 1000;
+}
+.color {
+  color: #20c997;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+.menu a {
+  font-size: 19px;
+  padding: 10px 0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.menu a:hover {
+  color: #20c997;
+}
+
+.redes {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.redes i {
+  cursor: pointer;
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+.redes i:hover {
+  color: #20c997;
+}
+.b {
+  color: #20c997 !important;
+}
+
+.icono {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icono h1 {
+  font-family: "Bitter", serif;
+  font-size: 80px;
+  text-align: center;
+  margin: 0;
+  letter-spacing: 5px;
+}
+
+.titulo {
+  margin: 4rem 0;
+}
+
+.titulo h3 {
+  margin: 0;
+}
+
+.titulo hr {
+  width: 35%;
+  background-color: #20c997;
+  height: 2px;
+  border: none;
+}
+.menuHamb {
+  display: none;
+}
+.menuHambOpen {
+  display: none;
+}
+
+.hambur {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding: 0.5rem 0.5rem;
+    align-items: center;
+  }
+
+  .titulo {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .titulo hr {
+    display: none;
+  }
+  .titulo h3 {
+    margin: 0;
+    color: white;
+  }
+
+  .icono h1 {
+    display: flex;
+    font-size: 40px;
+  }
+
+  .menu {
+    display: none;
+  }
+  .redes {
+    align-items: center;
+    width: 55%;
+  }
+
+  .redes i {
+    font-size: 18px;
+    margin-bottom: 0rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  .menuHambOpen {
+    width: 100%;
+    left: 0;
+    top: 65px;
+    display: block;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #111418;
+    transition: all 0.8s ease;
+    animation-duration: 500ms;
+    transform: translateY(-10%);
+  }
+  .menuHambOpen a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: none;
+    color: transparent;
+    transition: all 0.8s ease;
+    animation-duration: 500ms;
+    height: 0;
+  }
+
+  .menuHamb {
+    width: 100%;
+    left: 0;
+    top: 65px;
+    display: block;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #111418;
+    transition: all 0.8s ease;
+    transform: translateY(0);
+  }
+
+  .menuHamb a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    border-bottom: #20c997 1px solid;
+    transition: all 0.8s ease;
+    animation-duration: 500ms;
+  }
+
+  .hambur {
+    display: block;
+    background-color: transparent;
+    border: none;
+  }
+
+  .hamburguesa {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    transition: 0.5s;
+  }
+
+  .creado {
+    color: white;
+    border-top: 2.6px solid;
+    width: 28px;
+    transition: 1s;
+  }
+  .creado::after {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 2.5px;
+    background: white;
+    margin-top: 7px;
+    transition: 1s;
+  }
+  .creado::before {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 2px;
+    background: white;
+    margin-top: 7px;
+    transition: 1s;
+  }
+
+  .cerrado {
+    color: transparent;
+    transition: 1s;
+    position: relative;
+  }
+  .cerrado::after {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 2.5px;
+    background: white;
+    margin-top: 7px;
+    transition: 1s;
+    transform: rotate(135deg);
+    position: relative;
+    top: -10px;
+  }
+  .cerrado::before {
+    content: "";
+    display: block;
+    width: 28px;
+    height: 2px;
+    background: white;
+    margin-top: 7px;
+    transition: 1s;
+    transform: rotate(-135deg);
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .icono {
+    display: none;
+  }
+}

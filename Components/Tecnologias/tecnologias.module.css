@@ -1,0 +1,174 @@
+.contenedor {
+  min-height: 100vh;
+  height: auto;
+  padding-bottom: 2rem;
+  display: flex;
+  padding-left: 20%;
+  background-color: rgb(52 58 64);
+  position: relative;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 1;
+}
+.titulo {
+  position: relative;
+}
+
+.about h2 {
+  color: rgb(62 68 73);
+  font-size: 12vw;
+  font-weight: bold;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 25px;
+  width: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.tituloUno {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  left: 0;
+  border: 0;
+  margin: auto;
+  color: white;
+  z-index: 10;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+.tituloUno p {
+  margin: 0 !important;
+  font-weight: bolder;
+  font-size: 2vw;
+}
+
+.tituloUno hr {
+  width: 7%;
+  margin-top: 5px;
+  height: 3px;
+  border: none;
+  background-color: #20c997;
+}
+
+.tecnoCont {
+  display: flex;
+  justify-content: space-around;
+}
+.tecno {
+  display: flex;
+  color: white;
+  width: 33%;
+}
+
+.tecno i {
+  color: #20c997;
+  font-size: 35px;
+}
+.tecnoInfo {
+  padding: 0 1rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.tecnoInfo h1 {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+}
+.tecnoInfo p {
+  min-height: 120px;
+}
+
+.logo {
+  display: flex;
+  background-color: #212529;
+  height: fit-content;
+  padding: 1.2rem;
+  border-radius: 5px;
+}
+
+.iconos {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-around;
+  height: auto;
+  padding: 2rem 0;
+}
+.iconos span {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.iconos span i {
+  font-size: 60px;
+}
+.iconos span p {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.iconos p {
+  text-align: center;
+  font-size: 10px;
+}
+
+.express {
+  font-size: 13px !important;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1rem;
+  font-weight: 900;
+  margin-right: 0.3rem;
+  border: 3px solid #20c997;
+}
+@media only screen and (max-width: 900px) {
+  .contenedor {
+    padding: 0 5% 5% 5%;
+  }
+  .about h2 {
+    font-size: 10rem;
+    letter-spacing: 1rem !important;
+  }
+  .tituloUno {
+    top: 25%;
+  }
+  .tituloUno p {
+    margin: 0 !important;
+    font-weight: bolder;
+    font-size: 3rem;
+  }
+  .tecnoCont {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .tecno {
+    width: 90%;
+  }
+  .tecnoInfo p {
+    min-height: auto;
+    margin: 0;
+  }
+  .iconos {
+    flex-direction: row;
+    padding: 0;
+  }
+  .iconos span p {
+    display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .about h2 {
+    font-size: 6.2rem;
+    letter-spacing: 0.4rem !important;
+  }
+  .tituloUno p {
+    font-size: 2.2rem;
+  }
+}
