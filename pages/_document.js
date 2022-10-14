@@ -35,21 +35,21 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"></link>
 
-        <script src="https://unpkg.com/react/umd/react.production.min.js" ></script>
+        {/* <script src="https://unpkg.com/react/umd/react.production.min.js" ></script> */}
 
-        <script
+        {/* <script
           src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-        ></script>
-
+        ></script> */}
+        {/* 
         <script
           src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-        ></script>
+        ></script> */}
 
       </Head>
       <body>
         <Main />
         <NextScript />
       </body>
-    </Html>
+    </Html >
   );
 }
