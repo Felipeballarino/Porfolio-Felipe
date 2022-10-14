@@ -24,26 +24,26 @@ export default function Document() {
         <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"></link>
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@800&display=swap" rel="stylesheet" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet"></link>
 
-        <script src="https://unpkg.com/react/umd/react.production.min.js" crossOrigin></script>
+        <script src="https://unpkg.com/react/umd/react.production.min.js" ></script>
 
         <script
           src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-          crossorigin></script>
+        ></script>
 
         <script
           src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-          crossorigin></script>
+        ></script>
 
       </Head>
       <body>

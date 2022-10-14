@@ -40,7 +40,7 @@ const Top = () => {
       </div>
       <div className={styles.elemento}>
         <a className={styles.flecha} href="#About">
-          <i class="bx bx-chevron-down"></i>
+          <i className="bx bx-chevron-down"></i>
         </a>
       </div>
     </div>

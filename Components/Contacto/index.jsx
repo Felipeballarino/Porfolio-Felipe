@@ -60,7 +60,7 @@ const Contacto = () => {
 
       <div className={styles.elemento}>
         <a className={styles.flecha} href="#About">
-          <i class="bx bxs-chevron-up"></i>
+          <i className="bx bxs-chevron-up"></i>
         </a>
       </div>
     </div>
