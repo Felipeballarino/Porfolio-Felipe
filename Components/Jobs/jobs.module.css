@@ -217,6 +217,10 @@
     flex-direction: row;
     justify-content: space-between;
   }
+  .bgr h1 {
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
   .icons a {
     width: 45px;
     height: 45px;

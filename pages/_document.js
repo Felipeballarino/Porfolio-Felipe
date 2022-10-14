@@ -21,7 +21,7 @@ export default function Document() {
           rel="stylesheet"
         />
 
-        <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+        {/* <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script> */}
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
