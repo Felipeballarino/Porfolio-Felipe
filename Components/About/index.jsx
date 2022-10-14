@@ -15,7 +15,7 @@ const About = () => {
       contador < 5000 ? setContador(contador + 1) : "";
     }, 50),
     (
-      <div className={styles.contenedor} id="About">
+      <div className={styles.contenedor} id="sobre-mi">
         <div className={styles.titulo}>
           <div className={styles.about}>
             <h2>SOBRE MI</h2>
@@ -36,8 +36,8 @@ const About = () => {
               Soy <span>Felipe Ballarino,</span> programador Web
             </h1>
             <p>
-              Desde que comence mi viaje en el mundo de la programacion hace ya
-              casi dos anios, eh trabajado para agencias, participe y colabore
+              Desde que comencé mi viaje en el mundo de la programación hace ya
+              casi dos años, eh trabajado para agencias, participe y colabore
               con personas talentosas para crear productos digitales para uso
               comercial y de consumo. Soy tranquilo, confiado, naturalmente
               curioso y trabajo permanentemente para mejorar mis habilidades.
@@ -75,8 +75,7 @@ const About = () => {
                   href="/files/CVFELIPEBALLARINO.pdf"
                   download={"  CV-FELIPE-BALLARINO.pdf"}
                 >
-                  {" "}
-                  Descargar CV{" "}
+                  Descargar CV
                 </a>
               </button>
             </div>

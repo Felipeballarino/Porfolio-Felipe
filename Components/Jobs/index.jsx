@@ -98,7 +98,7 @@ const Jobs = () => {
   };
 
   return (
-    <div className={styles.contenedor} id="Port">
+    <div className={styles.contenedor} id="portfolio">
       <div className={styles.titulo}>
         <div className={styles.about}>
           <h2>PORTFOLIO</h2>

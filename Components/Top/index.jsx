@@ -1,15 +1,11 @@
 import styles from "./top.module.css";
-import React, { useRef, useEffect } from "react";
-import Typed from "typed.js";
+import React from "react";
+import { useRouter } from "next/router";
 
 const Top = () => {
+  const router = useRouter();
   const scrollToTop = () => {
-    window.scrollTo({
-      top: 100000,
-      behavior: "smooth",
-      /* you can also use 'auto' behaviour
-         in place of 'smooth' */
-    });
+    router.push("#sobre-mi");
   };
 
   return (
@@ -32,14 +28,14 @@ const Top = () => {
           <div className={styles.titulos}>
             <h1>Felipe</h1> <h1> Ballarino</h1>
           </div>
-          <span>Programador Full Stack</span>
+          <span>Programador Front End / Full Stack </span>
           <div className={styles.boton}>
             <button onClick={() => scrollToTop()}>Contáctame</button>
           </div>
         </div>
       </div>
       <div className={styles.elemento}>
-        <a className={styles.flecha} href="#About">
+        <a className={styles.flecha} href="#sobre-mi">
           <i className="bx bx-chevron-down"></i>
         </a>
       </div>

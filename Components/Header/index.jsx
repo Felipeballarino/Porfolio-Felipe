@@ -3,11 +3,11 @@ import React, { useState } from "react";
 import Link from "next/link";
 
 const menu = [
-  { titulo: "Inicio", href: "#Home" },
-  { titulo: "Sobre Mi", href: "#About" },
-  { titulo: "Servicios", href: "#What" },
+  { titulo: "Inicio", href: "/" },
+  { titulo: "Sobre Mi", href: "#sobre-mi" },
+  { titulo: "Servicios", href: "#servicios" },
   { titulo: "Resumen", href: "#resume" },
-  { titulo: "Portfolio", href: "#Port" },
+  { titulo: "Portfolio", href: "#portfolio" },
   // { titulo: "Contacto", href: "#Foot" },
 ];
 
@@ -35,7 +35,7 @@ const Head = () => {
         </div>
         <div className={styles.menu}>
           {menu.map((e, i) => (
-            <Link href={`${e.href}`} key={i}>
+            <Link href={e.href} key={i}>
               <a
                 className={selector == i ? styles.color : ""}
                 onClick={() => setNum(i)}

@@ -52,7 +52,7 @@ const Resumen = () => {
               </a>
               <p>
                 Componentes funcionales, Hooks, Router, NodeJs, ExpressJs,
-                JavaScript, React 18 y Maquetacion web.
+                JavaScript, React 18 y Maquetación web.
               </p>
             </div>
 
@@ -69,11 +69,11 @@ const Resumen = () => {
                 Udemy
               </a>
               <p>
-                Node debe de ser una herramienta muy importante hoy en día,
-                debemos de estar preparados para implementar todas sus bondades
-                para el beneficio de nuestros proyectos o trabajo, para poder
-                crear aplicaciones modernas escalables que nos permitirán estar
-                siempre a la vanguardia con la tecnología.
+                Node debe de ser una de las herramientas mas importantes hoy en
+                día, debemos de estar preparados para implementar todas sus
+                bondades para el beneficio de nuestros proyectos o trabajo, para
+                poder crear aplicaciones modernas escalables que nos permitirán
+                estar siempre a la vanguardia con la tecnología.
               </p>
             </div>
 
@@ -115,7 +115,7 @@ const Resumen = () => {
                 Agencia y consultora de marketing digital la cual trabaja con
                 organizaciones de variados rubros. Desarrollo y mantenimiento de
                 aplicaciones hechas con JavaScript, AngularJs y MySQL. Uso de
-                GIT, metodoligas como SCRUM y el gestor de tareas TRELLO.
+                GIT, metodologías como SCRUM y el gestor de tareas TRELLO.
               </p>
             </div>
             <div
@@ -133,8 +133,8 @@ const Resumen = () => {
                 desarrollar dos proyectos muy complejos. El primero fue un
                 proyecto individual utilizando React-Redux, Express, y SQL. El
                 segundo fue un proyecto grupal, en el cual utilizamos las mismas
-                tecnologias, sumandole el uso de metodolias agiles como SCRUM y
-                el otranizador de tareas TRELLO.
+                tecnologías, sumándole el uso de metodologías agiles como SCRUM
+                y el organizador de tareas TRELLO.
               </p>
             </div>
             {/*  <div

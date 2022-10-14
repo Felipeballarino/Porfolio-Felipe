@@ -9,7 +9,7 @@ const Tecnologias = () => {
   }, []);
 
   return (
-    <div className={styles.contenedor} id="What">
+    <div className={styles.contenedor} id="servicios">
       <div className={styles.titulo}>
         <div className={styles.about}>
           <h2>SERVICIOS</h2>
@@ -33,7 +33,7 @@ const Tecnologias = () => {
             <p>
               Me considero una persona creativa, y perfeccionista. Junto con tu
               ayuda y un poquito de creatividad podemos crear una web acorde a
-              sus necesitades.
+              sus necesidades.
             </p>
             <div className={styles.iconos}>
               <span>
@@ -90,8 +90,8 @@ const Tecnologias = () => {
           <div className={styles.tecnoInfo}>
             <h1>Base de Datos</h1>
             <p>
-              Te ofrezco un servicio de buena organizacion y almacenamiento de
-              datos para un facil manejo de ellos.
+              Te ofrezco un servicio de buena organización y almacenamiento de
+              datos para un fácil manejo de ellos.
             </p>
             <div className={styles.iconos}>
               <span>
