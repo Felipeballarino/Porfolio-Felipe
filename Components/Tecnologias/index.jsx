@@ -38,6 +38,10 @@ const Tecnologias = () => {
             <div className={styles.iconos}>
               <span>
                 <i className="bx bxl-react"></i>
+                <p>Next JS</p>
+              </span>
+              <span>
+                <i className="bx bxl-react"></i>
                 <p>React JS</p>
               </span>
               <span>

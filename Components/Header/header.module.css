@@ -19,7 +19,7 @@
   flex-direction: column;
 }
 .menu a {
-  font-size: 19px;
+  font-size: 22px;
   padding: 10px 0;
   cursor: pointer;
   text-align: center;
@@ -63,7 +63,10 @@
 }
 
 .titulo {
-  margin: 4rem 0;
+  margin: 3rem 0 0rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .titulo h3 {
@@ -75,6 +78,7 @@
   background-color: #20c997;
   height: 2px;
   border: none;
+  opacity: 1;
 }
 .menuHamb {
   display: none;

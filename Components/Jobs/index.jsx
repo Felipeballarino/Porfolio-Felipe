@@ -57,15 +57,29 @@ const trabajos = [
   {
     title: "Samex",
     category: "Front End",
-    url: "",
+    url: "https://www.samex.com.ar/",
     img: "/media/samex.png",
-    state: false,
+    state: true,
   },
   {
     title: "Clinica Marañon",
     category: "Front End",
-    url: "",
+    url: "https://maranion-web.vercel.app/",
     img: "/media/maranon.png",
+    state: true,
+  },
+  {
+    title: "Lubeal",
+    category: "Front End",
+    url: "",
+    img: "/media/lubeal.png",
+    state: false,
+  },
+  {
+    title: "Classer & Nautica Fuentes",
+    category: "Front End",
+    url: "",
+    img: "/media/Claser.png",
     state: false,
   },
 ];
